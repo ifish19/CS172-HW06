@@ -7,6 +7,7 @@
 #include<string> // for string class
 #include"EX06_01.h" // include code from EX06_01
 #include"EX06_02.h" // include code from EX06_02
+#include"EX06_03.h"
 using namespace std;
 
 int main()
@@ -25,5 +26,10 @@ int main()
 	cin >> filename;
 	// Check how many characters
 	cout << "File has " << EX06_02(filename) << " characters" << endl;
+
+	////////////////
+	// EX06_03
+	////////////////////
+	EX06_03();
 
 }
