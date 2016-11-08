@@ -14,7 +14,8 @@ void EX06_03()
 	string year;
 	char gender;
 	string name;
-	int rank = -1;
+	string name1;
+	string rank = "-1";
 	cout << "Enter the year: ";
 	cin >> year;
 	string filename = "Babynameranking" + year + ".txt";
@@ -34,12 +35,20 @@ void EX06_03()
 			{
 				if (line.find(name) != string::npos)
 				{
+					string::size_type rankEnd = line.find("	");
+					rank = line.substr(0, rankEnd);
+					cout << rank << endl;
+					//cout << name1 << endl;
 					cout << line << endl;
-					input >> rank;
-					rank--;
+					if (name == name1)
+					{
+						break;
+					}
+					
+					//rank--; // Rank is consistantly 1 higher than it should be
 				}
 			}
-			if (rank == -1)
+			if (rank == "-1")
 				cout << "The name " << name << " is not ranked in the year " << year << endl;
 			else
 				cout << name << " is ranked #" << rank << " in the year " << year << endl;
