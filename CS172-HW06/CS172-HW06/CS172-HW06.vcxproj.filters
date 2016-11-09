@@ -27,6 +27,9 @@
     <ClCompile Include="EX06_03.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EX06_04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EX06_01.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EX06_03.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EX06_04.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

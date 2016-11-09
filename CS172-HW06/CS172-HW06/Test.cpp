@@ -8,6 +8,7 @@
 #include"EX06_01.h" // include code from EX06_01
 #include"EX06_02.h" // include code from EX06_02
 #include"EX06_03.h"
+#include"EX06_04.h" // includes circle class
 using namespace std;
 
 int main()
@@ -30,6 +31,15 @@ int main()
 	////////////////
 	// EX06_03
 	////////////////////
-	EX06_03();
+	EX06_03(); // Finds popularity rank of specified baby name for a certian year
+
+	///////////////////////
+	// EX06_04
+	//////////////////////
+	Circle c1(2.102);
+	Circle c2(1.0);
+	Circle c3(46.2);
+	Circle c4(7.04);
+	
 
 }
