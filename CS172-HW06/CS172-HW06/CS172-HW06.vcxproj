@@ -82,6 +82,7 @@
     <ClCompile Include="EX06_02.cpp" />
     <ClCompile Include="EX06_03.cpp" />
     <ClCompile Include="EX06_04.cpp" />
+    <ClCompile Include="EX06_05.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +90,7 @@
     <ClInclude Include="EX06_02.h" />
     <ClInclude Include="EX06_03.h" />
     <ClInclude Include="EX06_04.h" />
+    <ClInclude Include="EX06_05.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
